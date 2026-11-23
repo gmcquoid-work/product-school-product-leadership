@@ -4,22 +4,22 @@
 
 ## 1. Trade-off memo
 
-> **Rock 1:** _____
+> **Rock 1:** Add a photo markup and annotation tool for field teams (supports KR1): Adding this feature will improve collaboration on Meridian and make it easier to enhance the photos and information for sharing, similar to how they currently use WhatsApp. This will help increase field teams' use of Meridian.
 >
-> **Rock 2:** _____
+> **Rock 2:** Enable push notifications for schedule changes (supports KR2): By enabling push notifications for schedule changes, this supports two-way alerting, improves project workflow and provides a visible response from the office. This helps make it a sticky product, keeping users using and referring to Meridian for information.
 >
-> **Rock 3:** _____
+> **Rock 3:** Simplify the daily log: reduce from 14 required fields to 4 (supports KR1): By taking this feedback and simplifying the daily log, we should improve the speed at which field teams can complete the daily log
 >
-> **Hard no 1:** _____
+> **Hard no 1:** Build an automated compliance checklist generator: Building an automated compliance checklist generator is an office enhancement and detracts from our objective of supporting field teams and using Meridian more effectively
 >
-> **Hard no 2:** _____
+> **Hard no 2:** Build a subcontractor portal with document sharing: Building a subcontractor portal is more focused on enterprise capability, which we have agreed is a hard no for the next 12 months. This is also high effort and does not align with our objective.
 >
-> **Hard no 3:** _____
+> **Hard no 3:** Add real-time weather data to the scheduling module: The scheduling module is an enterprise feature that we've agreed not to focus on for the next 12 months.
 
 ## 2. Outcome roadmap
 
 | Horizon | Outcome / bet | Owning team(s) | Success signal |
 |---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
-| Next (3 to 6 mo) | _____ | _____ | _____ |
-| Later (6 to 12 mo) | _____ | _____ | _____ |
+| Now (0 to 3 mo) | (1) KR1: We bet that in-app photo markup and annotation will move site issue and status capture out of WhatsApp and into Meridian for superintendents and foremen; (2) KR2: We bet that two-way push notifications (office alerted when a field issue is raised, field alerted when the office acts on it or changes the schedule) will close the response loop within 24 hours for field teams and project managers; (3) KR1 + KR3: We bet that cutting the daily log from 14 required fields to 4 will make daily logging a quick end-of-shift habit for superintendents and foremen | (1) Field Experience squad, Design; (2) Platform / Notifications, Office Workflows squad; (3) Field Experience squad, Office Workflows squad | (1) Share of field-originated issues, RFIs and updates moves from 6% toward about 15% by mid-quarter; (2) Share of field-raised items actioned within 24 hours rises from baseline toward 80%; (3) Median daily log time under 2 minutes, with enterprise PSAT and office reporting completeness holding steady |
+| Next (3 to 6 mo) | (1) AI-assisted RFI drafting from field capture. After Now because it needs the annotated photos and capture habit that photo markup creates, plus enough real RFIs to tune the drafts against; (2) Offline-first mobile experience for low-connectivity sites. After Now because offline sync is a heavy platform investment, best made once Now proves field users want to capture in Meridian; (3) Refresh of the office web UI where field items are reviewed and actioned. After Now because the Now bets change what flows from field to office, so we redesign around the new flows rather than the old ones; (4) Office triage inbox with 24-hour response tracking. After Now because triage should be designed around the real volume and mix of field items that Now generates; (5) Secure sharing with subcontractors and trade partners. After Now because we should extend into the WhatsApp groups only once internal field habits are sticky | (1) Field Experience squad, AI/ML; (2) Mobile Platform; (3) Office Workflows squad, Design; (4) Office Workflows squad; (5) Platform, Security, Partnerships | (1) Field share of RFIs rises, and office clarification requests per RFI fall; (2) Failed or abandoned site captures drop sharply, and field capture share holds on poor-connectivity sites; (3) Time to first office response falls, and enterprise PSAT is maintained or improved; (4) 80% of field items get a response within 24 hours; (5) Trade partners respond inside Meridian, and WhatsApp mentions fall in PSAT verbatims |
+| Later (6 to 12 mo) | Bets, not commitments: (1) a foreman-facing mobile app, separate from the PM web app, built for quick capture, including voice and hands-free input; (2) AI auto-tagging and summarisation of site photos into daily logs and issue categories; (3) two-way sync with enterprise scheduling tools (e.g. P6, MS Project); (4) predictive delay-risk signals for the office, drawn from clusters of field issues; (5) owner and client visibility views built on field-originated data | (1) Mobile Platform, Field Experience squad, Research; (2) AI/ML, Field Experience squad; (3) Integrations, Office Workflows squad; (4) Data & Analytics, AI/ML; (5) Office Workflows squad | (1) Weekly active foremen and their capture share beat the shared app in a pilot cohort; (2) Manual tagging and admin effort per project falls; (3) Fewer schedule-related RFIs; (4) The office acts on flagged risks before slippage; (5) Renewal and expansion conversations cite field data |
